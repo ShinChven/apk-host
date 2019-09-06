@@ -1,0 +1,13 @@
+version: '3'
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: shinchven/apk-host
+    ports:
+      - "3030:3030"
+    restart: always
+    container_name: apk-host
+#    volumes:
+#      - /opt/docker/apk-host/uploads:/usr/src/app/public/uploads
