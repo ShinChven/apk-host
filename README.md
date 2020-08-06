@@ -1,7 +1,7 @@
 # apk-host
 
 - A simple web server for apk hosting w/ RESTful api.
-- Build upon [FeathersJS](https://feathersjs.com/)
+- Built upon [FeathersJS](https://feathersjs.com/)
 
 ## API
 
